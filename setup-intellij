@@ -8,7 +8,6 @@ echo "Installing IntelliJ IDEA..."
 [ $(id -u) != "0" ] && exec sudo "$0" "$@"
 
 
-echo 'asd'
 # Attempt to install a JDK
 # apt-get install openjdk-8-jdk
 # add-apt-repository ppa:webupd8team/java && apt-get update && apt-get install oracle-java8-installer
